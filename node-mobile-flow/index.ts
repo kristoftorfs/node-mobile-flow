@@ -61,6 +61,7 @@ cmd.on('exit', function (code: number) {
             });
             fs.mkdirSync(www, 755);
             ncp('templates', project, function (err: Error) {
+                // TODO: Check is we actually need the reference to platformOverrides.js in index.html
                 if (err) {
                     console.log(sprintf('Failed installing workflow into project %s...', project).red);
                     console.log(err);
