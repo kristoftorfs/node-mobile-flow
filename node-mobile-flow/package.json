@@ -1,0 +1,22 @@
+{
+  "name": "node-mobile-flow",
+  "version": "0.0.1",
+  "description": "Workflow for Apache Cordova/PhoneGap apps.",
+  "main": "index.js",
+  "bin": {
+    "mobile-flow": "index.js",
+    "mod-install": "mod_install.js"
+  },
+  "author": {
+    "name": "Kristof Torfs",
+    "email": "kristof@torfs.org"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.4.4",
+    "sprintf": "^0.1.5"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}

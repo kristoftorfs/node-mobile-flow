@@ -1,0 +1,6 @@
+{
+  "filesGlob": [
+    "./scripts/**/*.d.ts",
+    "./src/**/*.ts"
+  ]
+}
